@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		F118DD5B1B68B47C00B2BA83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD5A1B68B47C00B2BA83 /* AppDelegate.swift */; };
-		F118DD5D1B68B47C00B2BA83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD5C1B68B47C00B2BA83 /* ViewController.swift */; };
+		F118DD5D1B68B47C00B2BA83 /* ContainersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD5C1B68B47C00B2BA83 /* ContainersViewController.swift */; };
 		F118DD601B68B47C00B2BA83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F118DD5E1B68B47C00B2BA83 /* Main.storyboard */; };
 		F118DD621B68B47C00B2BA83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F118DD611B68B47C00B2BA83 /* Images.xcassets */; };
 		F118DD651B68B47C00B2BA83 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F118DD631B68B47C00B2BA83 /* LaunchScreen.xib */; };
 		F118DD711B68B47C00B2BA83 /* ContainersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD701B68B47C00B2BA83 /* ContainersTests.swift */; };
+		F118DD7B1B68B50A00B2BA83 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */; };
+		F118DD7D1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */; };
+		F118DD7F1B69236E00B2BA83 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7E1B69236E00B2BA83 /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		F118DD551B68B47C00B2BA83 /* Containers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Containers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F118DD591B68B47C00B2BA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F118DD5A1B68B47C00B2BA83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F118DD5C1B68B47C00B2BA83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F118DD5C1B68B47C00B2BA83 /* ContainersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersViewController.swift; sourceTree = "<group>"; };
 		F118DD5F1B68B47C00B2BA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F118DD611B68B47C00B2BA83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F118DD641B68B47C00B2BA83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F118DD6A1B68B47C00B2BA83 /* ContainersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContainersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F118DD6F1B68B47C00B2BA83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F118DD701B68B47C00B2BA83 /* ContainersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersTests.swift; sourceTree = "<group>"; };
+		F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
+		F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainersCollectionViewCell.swift; sourceTree = "<group>"; };
+		F118DD7E1B69236E00B2BA83 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,12 @@
 		F118DD571B68B47C00B2BA83 /* Containers */ = {
 			isa = PBXGroup;
 			children = (
-				F118DD5A1B68B47C00B2BA83 /* AppDelegate.swift */,
-				F118DD5C1B68B47C00B2BA83 /* ViewController.swift */,
 				F118DD5E1B68B47C00B2BA83 /* Main.storyboard */,
+				F118DD5C1B68B47C00B2BA83 /* ContainersViewController.swift */,
+				F118DD7E1B69236E00B2BA83 /* TopViewController.swift */,
+				F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */,
+				F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */,
 				F118DD611B68B47C00B2BA83 /* Images.xcassets */,
-				F118DD631B68B47C00B2BA83 /* LaunchScreen.xib */,
 				F118DD581B68B47C00B2BA83 /* Supporting Files */,
 			);
 			path = Containers;
@@ -90,6 +97,8 @@
 		F118DD581B68B47C00B2BA83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F118DD631B68B47C00B2BA83 /* LaunchScreen.xib */,
+				F118DD5A1B68B47C00B2BA83 /* AppDelegate.swift */,
 				F118DD591B68B47C00B2BA83 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F118DD5D1B68B47C00B2BA83 /* ViewController.swift in Sources */,
+				F118DD5D1B68B47C00B2BA83 /* ContainersViewController.swift in Sources */,
 				F118DD5B1B68B47C00B2BA83 /* AppDelegate.swift in Sources */,
+				F118DD7D1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift in Sources */,
+				F118DD7B1B68B50A00B2BA83 /* BottomViewController.swift in Sources */,
+				F118DD7F1B69236E00B2BA83 /* TopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
