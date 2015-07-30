@@ -16,6 +16,7 @@
 		F118DD7B1B68B50A00B2BA83 /* BottomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */; };
 		F118DD7D1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */; };
 		F118DD7F1B69236E00B2BA83 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD7E1B69236E00B2BA83 /* TopViewController.swift */; };
+		F118DD811B697B0700B2BA83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118DD801B697B0700B2BA83 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewController.swift; sourceTree = "<group>"; };
 		F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainersCollectionViewCell.swift; sourceTree = "<group>"; };
 		F118DD7E1B69236E00B2BA83 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		F118DD801B697B0700B2BA83 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				F118DD7E1B69236E00B2BA83 /* TopViewController.swift */,
 				F118DD7A1B68B50A00B2BA83 /* BottomViewController.swift */,
 				F118DD7C1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift */,
+				F118DD801B697B0700B2BA83 /* Extensions.swift */,
 				F118DD611B68B47C00B2BA83 /* Images.xcassets */,
 				F118DD581B68B47C00B2BA83 /* Supporting Files */,
 			);
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F118DD5D1B68B47C00B2BA83 /* ContainersViewController.swift in Sources */,
+				F118DD811B697B0700B2BA83 /* Extensions.swift in Sources */,
 				F118DD5B1B68B47C00B2BA83 /* AppDelegate.swift in Sources */,
 				F118DD7D1B690DDE00B2BA83 /* ContainersCollectionViewCell.swift in Sources */,
 				F118DD7B1B68B50A00B2BA83 /* BottomViewController.swift in Sources */,
@@ -423,6 +427,7 @@
 				F118DD761B68B47C00B2BA83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F118DD771B68B47C00B2BA83 /* Build configuration list for PBXNativeTarget "ContainersTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +436,7 @@
 				F118DD791B68B47C00B2BA83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
